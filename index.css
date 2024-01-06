@@ -1,0 +1,37 @@
+section {
+    display: flex;
+ width: 600px;
+ height: 430px;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity:  .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+a{
+    display: block;
+    width: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 150px   130px;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: rgb(180, 217, 255);
+    background-color: rgb(126, 172, 247);
+}
+a:hover{
+    background-color: transparent;
+    border-color: rgb(126, 172, 247);
+    color: rgb(126, 172, 247);
+}
